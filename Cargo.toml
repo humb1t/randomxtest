@@ -1,0 +1,9 @@
+[package]
+name = "randomxtest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+randomx-rs = { git = "https://github.com/humb1t/randomx-rs.git", branch = "build-using-cmake-crate" }
+# randomx-rs = { version = "1.3" }
+# tari_comms = { git = "https://github.com/tari-project/tari.git", rev = "f7813b7", package = "tari_comms" }
